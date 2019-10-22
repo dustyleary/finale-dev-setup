@@ -4,3 +4,11 @@
 # Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/dustyleary/finale-dev-setup/master/finale-dev-setup.ps1'))
 
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco feature enable -name=exitOnRebootDetected
+choco feature enable -name=allowGlobalConfirmation
+
+choco install 7zip.install googlechrome vlc
+choco install cmake nsis vscode git
+choco install visualstudio2017buildtools visualstudio2017-workload-nativedesktop visualstudio2017-workload-nativegame
+
