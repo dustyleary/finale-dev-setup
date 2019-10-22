@@ -14,7 +14,6 @@ function check-install {
         Write-Host "[*] There was an error installing packages."
         Write-Host "[*] Usually this means you need to restart your computer and run this script again."
         Write-Host ""
-        Exit
     }
 }
 function choco-install {
