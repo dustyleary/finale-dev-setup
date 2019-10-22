@@ -8,7 +8,12 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco feature enable -name=exitOnRebootDetected
 choco feature enable -name=allowGlobalConfirmation
 
-choco install 7zip.install googlechrome vlc
-choco install cmake nsis vscode git
-choco install visualstudio2017buildtools visualstudio2017-workload-nativedesktop visualstudio2017-workload-nativegame
+#choco install 7zip.install googlechrome vlc
+#choco install cmake nsis vscode git
+#choco install visualstudio2017buildtools visualstudio2017-workload-nativedesktop visualstudio2017-workload-nativegame
+choco install asdfsd8o7fnas8od7fna8osdf
 
+if (!$?) {
+	# Not True, last operation failed
+  Write-Host "[*] Something went wrong."
+}
