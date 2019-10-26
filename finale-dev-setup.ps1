@@ -23,4 +23,5 @@ function choco-install {
 
 choco-install 7zip.install googlechrome vlc
 choco-install cmake nsis vscode git nvm
+choco-install awscli
 choco-install visualstudio2017buildtools visualstudio2017-workload-nativedesktop visualstudio2017-workload-nativegame
